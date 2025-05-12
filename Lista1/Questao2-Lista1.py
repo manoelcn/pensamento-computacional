@@ -1,0 +1,5 @@
+fine_value = float(input("Qual é o valor original cobrado por cada multa?"))
+percentage = float(input("Qual é a porcentagem de juros cobrada pelo Detran?"))
+number_friends = float(input("Quantos amigos irão contribuir com as despesas?"))
+result = ((fine_value * 2) * (1 + (percentage / 100)) / number_friends)
+print(f"O valor em reais que cada amigo deverá pagar ao Detran é {result:.2f}")

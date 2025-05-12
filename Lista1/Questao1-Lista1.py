@@ -1,0 +1,5 @@
+distance = float(input("Qual é a distância da viagem de ida e volta em quilômetros?" ))
+autonomy = float(input("Quantos quilômetros o carro percorre com cada litro de combustível? "))
+fuel_price = float(input("Qual é o preço em reais por litro de combustível? "))
+result = str((distance / autonomy) * fuel_price)
+print("O valor em reais para realizar a viagem pretendida é " + result)
